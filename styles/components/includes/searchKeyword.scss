@@ -1,0 +1,28 @@
+.searchComponentMain{
+    border-bottom: solid 1px rgba(34,96,191,.14);
+    .inputField{
+        max-width: 300px;
+        min-width: 334px;
+        display: flex;
+        align-items: center;
+        align-self: center;
+        background-color: rgba(34,96,191,.08);
+        border-radius: 68px;
+        padding: 5px 15px;
+        margin-left: auto;
+        input{
+            margin-right: 10px;
+            width: 90%;
+            outline: none;
+            border: 0ch;
+            box-shadow: none;
+            background-color: transparent;
+            padding: 5px;
+        }
+    }
+}
+@media(max-width:$mobileBreakpoint){
+    .searchComponentMain{
+        display: none;
+    }
+}

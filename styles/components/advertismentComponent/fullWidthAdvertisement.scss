@@ -1,0 +1,26 @@
+.fullWidthAdvertisementMain{
+    height: 100px;
+    width: 100%;
+    @media(max-width:$mobileBreakpoint){
+        height: auto;
+        width: 97%;
+    }
+    // border-bottom: solid 1px rgba(34,96,191,.14);
+    margin-top: 10px;
+    margin-bottom: 10px;
+    .innerDiv{
+        width: 100%;
+        height: 100%;
+        border-radius: 10px;
+        overflow: hidden;
+        @media(max-width:$mobileBreakpoint){
+            border-radius: 2px;
+        }
+        img{
+            width: 100%;
+            height: 100%;
+            object-fit: fill;
+        }
+    }
+    
+}

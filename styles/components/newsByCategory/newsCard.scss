@@ -1,0 +1,51 @@
+.headingDiv{
+    .innerDiv{
+        h2{
+    line-height: 1;
+    font-size: 45px;
+    font-weight: 600;
+    font-family: $navbarFont;
+    color: $primaryColor;
+    display: flex;
+    align-items: center;
+        }
+    }
+}
+.newsByCategoryMainDiv{
+    width: 100%;
+
+    .newsCardMainDiv{
+        width: 30%;
+        
+        padding: 20px;
+        .innerDiv{
+            cursor: pointer;
+            .imgDiv{
+                width: 100%;
+                height: 85%;
+                border-radius: 5px;
+                overflow: hidden;
+
+                img{
+                    width: 100%;
+                    height: 100%;
+                    object-fit: contain;
+                }
+            }
+            span{
+                padding-top: 10px;
+                display: inline-block;
+                font-weight: bold;
+                
+            }
+            &:hover{
+                color: $primaryColor;
+            }
+        }
+        @media(max-width: $mobileBreakpoint){
+            width: 50%;
+        }
+        
+    }
+    
+}

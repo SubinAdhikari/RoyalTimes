@@ -1,0 +1,106 @@
+.navBarMainLargeScreen{
+    background-color: $primaryColor;
+    color: $white;
+    z-index: 99;
+    box-shadow: rgb(0 0 0 / 14%) 0 0 18px;
+    font-family: $navbarFont;
+    padding: 5px;
+    ul{
+        display: flex;
+        #navLogo{
+            width: 30px;
+            height: 30px;
+            opacity: 0;
+            transition: .5s ease-in-out;
+        }
+        li{
+            a{
+                padding: 15px 20px 12px;
+                font-size: 25px;
+                font-weight: 600;
+                transition: all .3s ease;
+                &:hover{
+                    color: $hoverColorNavBar;
+                }
+            }
+            .highlighted{
+                color: $hoverColorNavBar;  
+            }
+        }
+        .englishBtn{
+            margin-right: 24px;
+    display: inline-block;
+    line-height: 38px;
+    text-align: center;
+    padding: 0 20px;
+    border-radius: 4px;
+    font-weight: 700;
+    color: #ed1b24;
+    background-color: #fff;
+    text-decoration: none;
+    transition: all .3s ease;
+    border: none;
+    outline: 0ch;
+    &:hover{
+        background-color: #ed1b24;
+        color: #fff;
+    }
+        }
+    }
+    .hamburger{
+        width: 30px;
+        height:30px;
+        font-weight: 100;
+        cursor: pointer;
+        margin-top: 4px;
+    }
+}
+@media(max-width:$mobileBreakpoint){
+    .navBarMainLargeScreen{
+        display: none;
+    }
+}
+
+
+.navBarMainSmallScreen{
+    background-color: $silverColor;
+    position: fixed;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    z-index: 100;
+    transition: 0.5s ease-in-out;
+    padding: 40px;
+    width: 0px;
+    margin-right: -300px;
+    overflow-y: auto;
+    svg{
+        width: 25px;
+        height:25px;
+        font-weight: 100;
+        cursor: pointer;
+        position: absolute;
+        right: 0;
+        margin-right: 40px;
+        margin-bottom: 20px;
+    }
+    ul{
+        li{
+            margin-top: 20px;
+            img{
+                width: 30px;
+                height:30px;
+                margin-right: 10px;
+            }
+            width: 100%;
+            height: 40px;
+            display: flex;
+            align-items: center;
+            font-size: 20px;
+            font-weight: 600;
+            .highlighted{
+                color: $hoverColorNavBar;  
+            }
+        }
+    }
+}
