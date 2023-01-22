@@ -46,7 +46,7 @@ const Navbar = () => {
                 <img
                   id="navLogo"
                   // src="https://www.onlinekhabar.com/wp-content/themes/onlinekhabar-2021/img/ok-icon.png"
-                  src="/static/favIcon.svg"
+                  src="/static/smallIcon.png"
                   alt="logo"
                 />
               </Link>
