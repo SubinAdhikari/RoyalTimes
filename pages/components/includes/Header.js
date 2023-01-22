@@ -32,7 +32,7 @@ const Header = () => {
             <Link href={"/"}>
               <img
                 className="mainLogo"
-                src="/static/rtlogo.svg"
+                src="/static/logo.png"
                 // src="https://www.onlinekhabar.com/wp-content/themes/onlinekhabar-2021/img/ok-logo-main.png"
                 alt="royals times"
               />
