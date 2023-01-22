@@ -67,17 +67,17 @@ const Footer = () => {
           <img
             className="logo"
             // src="https://www.onlinekhabar.com/wp-content/themes/onlinekhabar-2021/img/ok-logo-main.png"
-            src="/static/rtlogo.svg"
+            src="/static/logo.png"
             alt="logo"
           />
         </div>
         <div className="col-lg-2 col-6 d-flex flex-column justify-content-center align-items-center">
           <span className="designation">अध्यक्ष तथा प्रबन्ध निर्देशक:</span>
-          <span className="name">सुविन अधिकारी</span>
+          <span className="name">बुधेश्वर रजक</span>
         </div>
         <div className="col-lg-1 col-6 d-flex flex-column justify-content-center align-items-center">
           <span className="designation">प्रधान सम्पादकः</span>
-          <span className="name">निरजराज महासेठ</span>
+          <span className="name">प्रतिभा झा</span>
         </div>
         <div className="col-lg-2 col-12 d-flex flex-column justify-content-center align-items-center">
           <span className="designation">सूचना विभाग दर्ता नं.</span>
@@ -87,8 +87,8 @@ const Footer = () => {
           className="col-lg-2 col-12 d-flex flex-column justify-content-center align-items-center"
           style={{ fontSize: "14px" }}
         >
-          <span>+977-4444444, +977-1234567</span>
-          <span>news@royalstimes.com</span>
+          <span>+९७७-९८४४२७१७७६</span>
+          <span>royalstimes@gmail.com</span>
         </div>
         <div className="col-lg-3 col-12 d-flex flex-column justify-content-center align-items-center">
           <div>
